@@ -8,8 +8,8 @@ import io
 # モデルをロード
 model = YOLO("yolov8n.pt")  # 小型のYOLOv8モデル（初回だけ自動DL）
 
-st.title("🐾 動物検知アプリ")
-st.write("画像をアップロードすると、動物などを検出します。")
+st.title("🐾 物体検知アプリ")
+st.write("画像をアップロードすると、物体を検出します。")
 
 uploaded_file = st.file_uploader("画像を選んでください", type=["jpg", "jpeg", "png"])
 
